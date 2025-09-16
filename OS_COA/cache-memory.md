@@ -546,4 +546,10 @@ Increasing cache size reduces capacity misses; increasing associativity reduces 
 Write-back is generally preferred for performance, write-through for simplicity and consistency.
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Fragmentation](./fragmentation.md)
+
+**Related Topics:**
+- [Fragmentation](./fragmentation.md) - Memory efficiency and fragmentation issues
+- [Virtual Memory](./virtual-memory.md) - Memory management and page replacement
+- [Paging](./paging.md) - Page-based memory systems
+- [Memory Allocation](./memory-allocation.md) - Physical memory organization

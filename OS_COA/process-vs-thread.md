@@ -114,4 +114,10 @@ Process: [Code|Data|Heap] + [Stack1|Stack2|Stack3]
 - Choice depends on whether you prioritize performance (multithreading) or reliability (multiprocessing)
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [Next: Process States →](./process-states.md)
+
+**Related Topics:**
+- [Process States](./process-states.md) - Understanding process lifecycle
+- [CPU Scheduling](./cpu-scheduling.md) - How OS manages process execution
+- [Inter-Process Communication](./inter-process-communication.md) - Communication between processes
+- [Critical Section](./critical-section.md) - Thread synchronization challenges

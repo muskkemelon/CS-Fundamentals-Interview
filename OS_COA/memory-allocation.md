@@ -655,4 +655,10 @@ Best fit minimizes immediate waste but may not be optimal long-term due to small
 Modern garbage collectors use tracing algorithms (mark-and-sweep, copying, generational) rather than pure reference counting.
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Deadlock Management](./deadlock-management.md) | [Next: Segmentation →](./segmentation.md)
+
+**Related Topics:**
+- [Segmentation](./segmentation.md) - Variable-size memory segments
+- [Paging](./paging.md) - Fixed-size memory pages
+- [Virtual Memory](./virtual-memory.md) - Advanced memory management techniques
+- [Cache Memory](./cache-memory.md) - Memory hierarchy and caching

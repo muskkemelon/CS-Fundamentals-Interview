@@ -724,3 +724,6 @@ YouTube's impressive scale metrics:
 ---
 
 **Key Insights**: YouTube's success relies on massive-scale video processing, intelligent global content delivery, sophisticated recommendation algorithms, and seamless user experience across all devices and network conditions.
+
+---
+[← Back to Main Guide](./README.md) | [← Back to System Designs Guide](./system-designs-README.md) | [← Previous: WhatsApp Design](./whatsapp-design.md) | [Next: LinkedIn Design →](./linkedin-design.md)

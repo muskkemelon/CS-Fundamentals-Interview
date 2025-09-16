@@ -20,6 +20,8 @@ A comprehensive guide covering essential OS and Computer Architecture concepts f
 
 #### Memory Management
 - [Memory Allocation Techniques](./memory-allocation.md)
+- [Segmentation](./segmentation.md)
+- [Paging](./paging.md)
 - [Virtual Memory & Page Replacement](./virtual-memory.md)
 - [Thrashing](./thrashing.md)
 - [Fragmentation](./fragmentation.md)

@@ -262,4 +262,10 @@ if (!lock) {
 - Compare-and-swap with pointer and counter
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Inter-Process Communication](./inter-process-communication.md) | [Next: Semaphores & Mutex →](./semaphores-mutex.md)
+
+**Related Topics:**
+- [Inter-Process Communication](./inter-process-communication.md) - Process coordination
+- [Semaphores & Mutex](./semaphores-mutex.md) - Synchronization primitives
+- [Classic Sync Problems](./classic-sync-problems.md) - Real-world synchronization scenarios
+- [Deadlock Management](./deadlock-management.md) - Avoiding synchronization deadlocks

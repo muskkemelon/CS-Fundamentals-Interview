@@ -544,4 +544,10 @@ Detection overhead must be balanced against detection frequency.
 - **Ignore (Ostrich approach)**: Lowest overhead but system may hang, used when deadlocks are rare
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Classic Sync Problems](./classic-sync-problems.md) | [Next: Memory Allocation →](./memory-allocation.md)
+
+**Related Topics:**
+- [Classic Sync Problems](./classic-sync-problems.md) - Synchronization scenarios prone to deadlock
+- [Semaphores & Mutex](./semaphores-mutex.md) - Synchronization primitives that can cause deadlock
+- [Critical Section](./critical-section.md) - Understanding resource access conflicts
+- [Memory Allocation](./memory-allocation.md) - Memory as a resource in deadlock scenarios

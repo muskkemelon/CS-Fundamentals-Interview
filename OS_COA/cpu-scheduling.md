@@ -145,4 +145,10 @@ Throughput = Number of processes/Total time = 3/9 = 0.33 processes/unit
 - **Disable preemption**: During critical sections (simple but reduces concurrency)
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Process States](./process-states.md) | [Next: Inter-Process Communication →](./inter-process-communication.md)
+
+**Related Topics:**
+- [Process States](./process-states.md) - Process lifecycle and transitions
+- [Inter-Process Communication](./inter-process-communication.md) - Process coordination
+- [Critical Section](./critical-section.md) - Synchronization in scheduling
+- [Deadlock Management](./deadlock-management.md) - Avoiding resource conflicts

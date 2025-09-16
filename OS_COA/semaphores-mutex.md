@@ -305,4 +305,10 @@ while (condition_not_met) {
 Instead of just using if statement for condition checking.
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Critical Section](./critical-section.md) | [Next: Classic Sync Problems →](./classic-sync-problems.md)
+
+**Related Topics:**
+- [Critical Section](./critical-section.md) - Synchronization challenges
+- [Classic Sync Problems](./classic-sync-problems.md) - Practical synchronization applications
+- [Deadlock Management](./deadlock-management.md) - Avoiding synchronization deadlocks
+- [Process vs Thread](./process-vs-thread.md) - Understanding synchronization context

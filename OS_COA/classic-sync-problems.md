@@ -336,4 +336,10 @@ sem_wait(&empty);    // Then wait for empty slot
 If buffer is full, producer holds mutex and waits for empty slot, but consumer can't run to create empty slot because it can't get mutex. Always acquire resource semaphores before mutual exclusion semaphores.
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Semaphores & Mutex](./semaphores-mutex.md) | [Next: Deadlock Management →](./deadlock-management.md)
+
+**Related Topics:**
+- [Semaphores & Mutex](./semaphores-mutex.md) - Synchronization primitives used in solutions
+- [Deadlock Management](./deadlock-management.md) - Avoiding deadlocks in sync problems
+- [Critical Section](./critical-section.md) - Fundamental synchronization concepts
+- [Inter-Process Communication](./inter-process-communication.md) - Process coordination mechanisms

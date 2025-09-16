@@ -142,4 +142,10 @@ This is involuntary transition - the process is forced to give up CPU.
 Suspended processes can be either ready-suspended or waiting-suspended, and must be resumed before execution.
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Process vs Thread](./process-vs-thread.md) | [Next: CPU Scheduling →](./cpu-scheduling.md)
+
+**Related Topics:**
+- [Process vs Thread](./process-vs-thread.md) - Fundamental process concepts
+- [CPU Scheduling](./cpu-scheduling.md) - How processes are scheduled
+- [Inter-Process Communication](./inter-process-communication.md) - Process interaction
+- [Critical Section](./critical-section.md) - Process synchronization

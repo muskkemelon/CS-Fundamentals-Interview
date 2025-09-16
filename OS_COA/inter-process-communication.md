@@ -279,4 +279,10 @@ int consume(struct shared_data *data) {
 Best practice: Use signal handlers or atexit() for cleanup
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: CPU Scheduling](./cpu-scheduling.md) | [Next: Critical Section →](./critical-section.md)
+
+**Related Topics:**
+- [CPU Scheduling](./cpu-scheduling.md) - Process execution management
+- [Critical Section](./critical-section.md) - Synchronization challenges
+- [Semaphores & Mutex](./semaphores-mutex.md) - Synchronization mechanisms
+- [Process vs Thread](./process-vs-thread.md) - Communication within processes

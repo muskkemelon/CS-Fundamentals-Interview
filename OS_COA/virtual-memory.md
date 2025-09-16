@@ -325,4 +325,10 @@ LRU considers actual usage patterns while FIFO only considers arrival order.
 - **Real-time constraints**: Simple algorithms may be preferred for predictable timing
 
 ---
-[← Back to Main Guide](./README.md)
+[← Back to Main Guide](./README.md) | [← Previous: Paging](./paging.md) | [Next: Thrashing →](./thrashing.md)
+
+**Related Topics:**
+- [Paging](./paging.md) - Foundation of virtual memory systems
+- [Thrashing](./thrashing.md) - Performance issues in virtual memory
+- [Fragmentation](./fragmentation.md) - Memory management efficiency issues
+- [Segmentation](./segmentation.md) - Alternative memory management approach
