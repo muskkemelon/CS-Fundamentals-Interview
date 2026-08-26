@@ -28,9 +28,17 @@ COMMIT;
 
 ### Q2: How does isolation prevent dirty reads?
 **Answer**: Isolation uses locking mechanisms or MVCC (Multi-Version Concurrency Control) to ensure transactions see consistent data. This prevents reading uncommitted changes from other transactions.
-
+______________________________________________________________________________________________________________
 ### Q3: Explain durability with an example.
 **Answer**: Once a transaction commits (like confirming an online purchase), the data must survive system crashes. This is achieved through write-ahead logging and flushing data to persistent storage.
+
+1.Write-Ahead means:
+The log must be written to stable storage before the corresponding database change is considered safely committed.
+
+2. Flushing to persistent storage
+Data initially may be present in RAM/buffer/cache, which is volatile. If power is lost, RAM contents can disappear.
+Therefore, before confirming the transaction as committed, the DBMS flushes the necessary log information from memory to persistent storage such as an SSD/HDD.
+________________________________________________________________________________________________________
 
 ### Q4: Can you have consistency without atomicity?
 **Answer**: No. Without atomicity, partial transaction execution could leave the database in an inconsistent state. Atomicity ensures consistency by guaranteeing complete transaction execution.
